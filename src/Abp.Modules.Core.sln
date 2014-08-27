@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.Modules.Core", "Abp.Modules.Core\Abp.Modules.Core.csproj", "{B333D942-7600-4191-80E3-923A6144DF4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.Modules.Core.Application", "Abp.Modules.Core.Application\Abp.Modules.Core.Application.csproj", "{C543BB79-F01D-4FE6-89CB-A38BD8B255FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.Modules.Core.Infrastructure.EntityFramework", "Abp.Modules.Core.Infrastructure.EntityFramework\Abp.Modules.Core.Infrastructure.EntityFramework.csproj", "{E47DDC44-30FE-4DFD-9680-C39E9B9AF474}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{7B47D5F9-9F75-4375-974C-025765E7C19E}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.Modules.Core.Infrastructure.NHibernate", "Abp.Modules.Core.Infrastructure.NHibernate\Abp.Modules.Core.Infrastructure.NHibernate.csproj", "{CE9FEA93-BE42-442B-A7FF-A53922099F64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.Modules.Core.Web", "Abp.Modules.Core.Web\Abp.Modules.Core.Web.csproj", "{12C9EA02-CD50-4115-A043-74461F656F73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.Modules.Core.Web.Api", "Abp.Modules.Core.Web.Api\Abp.Modules.Core.Web.Api.csproj", "{2A1CA060-4E83-440D-8CE3-0436748F33BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.Modules.Core.Web.Mvc", "Abp.Modules.Core.Web.Mvc\Abp.Modules.Core.Web.Mvc.csproj", "{5C377732-2DBC-43C2-B9E5-009BD460FCE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DA624FED-D062-4F5A-8B7A-872778BC0DCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.Modules.Core.Tests", "Tests\Abp.Modules.Core.Tests\Abp.Modules.Core.Tests.csproj", "{111BBE88-A97F-439B-A2BE-05F86A9F5585}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B333D942-7600-4191-80E3-923A6144DF4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B333D942-7600-4191-80E3-923A6144DF4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B333D942-7600-4191-80E3-923A6144DF4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B333D942-7600-4191-80E3-923A6144DF4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C543BB79-F01D-4FE6-89CB-A38BD8B255FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C543BB79-F01D-4FE6-89CB-A38BD8B255FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C543BB79-F01D-4FE6-89CB-A38BD8B255FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C543BB79-F01D-4FE6-89CB-A38BD8B255FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E47DDC44-30FE-4DFD-9680-C39E9B9AF474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E47DDC44-30FE-4DFD-9680-C39E9B9AF474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E47DDC44-30FE-4DFD-9680-C39E9B9AF474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E47DDC44-30FE-4DFD-9680-C39E9B9AF474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE9FEA93-BE42-442B-A7FF-A53922099F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE9FEA93-BE42-442B-A7FF-A53922099F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE9FEA93-BE42-442B-A7FF-A53922099F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE9FEA93-BE42-442B-A7FF-A53922099F64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12C9EA02-CD50-4115-A043-74461F656F73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12C9EA02-CD50-4115-A043-74461F656F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12C9EA02-CD50-4115-A043-74461F656F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12C9EA02-CD50-4115-A043-74461F656F73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A1CA060-4E83-440D-8CE3-0436748F33BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A1CA060-4E83-440D-8CE3-0436748F33BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A1CA060-4E83-440D-8CE3-0436748F33BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A1CA060-4E83-440D-8CE3-0436748F33BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C377732-2DBC-43C2-B9E5-009BD460FCE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C377732-2DBC-43C2-B9E5-009BD460FCE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C377732-2DBC-43C2-B9E5-009BD460FCE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C377732-2DBC-43C2-B9E5-009BD460FCE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{111BBE88-A97F-439B-A2BE-05F86A9F5585}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{111BBE88-A97F-439B-A2BE-05F86A9F5585}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{111BBE88-A97F-439B-A2BE-05F86A9F5585}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{111BBE88-A97F-439B-A2BE-05F86A9F5585}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{111BBE88-A97F-439B-A2BE-05F86A9F5585} = {DA624FED-D062-4F5A-8B7A-872778BC0DCD}
+	EndGlobalSection
+EndGlobal
