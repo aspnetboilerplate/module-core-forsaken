@@ -173,3 +173,4 @@ UpgradeLog*.htm
 # Microsoft Fakes
 FakesAssemblies/
 nupkg/push_abp_modules_core.bat
+nupkg/*.nupkg
