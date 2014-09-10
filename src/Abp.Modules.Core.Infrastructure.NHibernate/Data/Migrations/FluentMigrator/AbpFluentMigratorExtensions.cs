@@ -41,15 +41,6 @@ namespace Abp.Data.Migrations.FluentMigrator
         }
 
         /// <summary>
-        /// Adds creation auditing columns to a table. See <see cref="ICreationAudited"/>.
-        /// </summary>
-        public static ICreateTableColumnOptionOrWithColumnSyntax WithCreationTimeColumn(this ICreateTableWithColumnSyntax table)
-        {
-            return table
-                .WithColumn("CreationTime").AsDateTime().NotNullable().WithDefault(SystemMethods.CurrentDateTime);
-        }
-
-        /// <summary>
         /// Adds TenantId column to a table as not nullable. See <see cref="AbpTenant"/>.
         /// </summary>
         public static ICreateTableColumnOptionOrForeignKeyCascadeOrWithColumnSyntax WithTenantId(this ICreateTableWithColumnSyntax table)
