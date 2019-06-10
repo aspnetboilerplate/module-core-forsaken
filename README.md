@@ -1,4 +1,4 @@
 module-core-forsaken
 ====================
 
-This module is deprecated. Use 'module-zero' instead: https://github.com/aspnetboilerplate/module-zero
+This module is deprecated. Use https://github.com/aspnetboilerplate/aspnetboilerplate instead.
